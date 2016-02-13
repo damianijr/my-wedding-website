@@ -1,0 +1,317 @@
+html, body {
+  height: 100%;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+
+.full {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+}
+
+.section-heading {
+  color: #fed136;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+address {
+  margin: 15px;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3em;
+}
+
+
+/** PRINCIPAL **/
+#main {
+  background-image: url(../images/bg-1.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center ;
+  background-size: cover;
+  background-position: 40%;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+#main .container {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+#main h1 {
+  font-family: 'Allura', cursive;
+  font-size: 5em;
+  text-shadow: 2px 2px #000;
+}
+
+#saveTheDate {
+  font-family: 'Allura', cursive;
+  position: absolute;
+  top: 80px;
+  right: 2%;
+  min-width: 35%;
+  text-shadow: 2px 2px #000;
+  line-height: 100%;
+}
+
+@media (max-width: 767px) {
+  #saveTheDate {
+    font-size: 190%;
+    top: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #saveTheDate {
+    font-size: 350%;
+  }
+}
+@media (min-width: 1200px) {
+  #saveTheDate {
+    font-size: 450%;
+  }
+}
+
+/** PRINCIPAL - COUNTDOWN **/
+.countdown {
+  }
+.countdown-container {
+  position: relative;
+  top: 50%;
+}
+.clock-item .inner {
+  height: 0px;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+.clock-canvas {
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 50%;
+  height: 0px;
+  padding-bottom: 100%;
+}
+.text {
+  color: #fff;
+  font-weight: bold;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.clock-item {
+  width: 18%;
+  float: left;
+  margin-left: 5%;
+}
+
+/** LOCAL **/
+#local {
+  background-color: #fff;
+  color: black;
+  padding-bottom: 40px;
+}
+
+#cerimonia {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  margin-right: 2%;
+  margin-top: 40px;
+  border: 1px solid #fed136;
+}
+
+#icon-cerimonia {
+  position: absolute;
+  left: -10px;
+  top: -30px;
+  width: 45px;
+}
+
+#party {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  margin-top: 40px;
+  border: 1px solid #fed136;
+}
+
+#icon-party {
+  position: absolute;
+  left: -10px;
+  top: -30px;
+  width: 48px;
+}
+
+@media (max-width: 1000px) {
+  #party, #cerimonia {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #cerimonia {
+    margin-right: 0;
+    margin-bottom: 6%;
+  }
+}
+
+
+
+/** NAVBAR **/
+
+.navbar-default {
+    background-color: #222;
+    border-color: transparent
+}
+.navbar-transparent {
+    background: transparent
+}
+.navbar-default .navbar-brand {
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503
+}
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02)
+}
+.navbar-default .navbar-toggle {
+    background-color: #fed136;
+    border-color: #fed136
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136
+}
+.navbar-default .nav li a {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #fed136;
+    outline: 0
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503
+}
+
+
+.navbar-brand {
+  font-family: 'Allura', cursive !important;
+  font-size: 2.5em;
+  padding-top: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+}
+
+
+/** CONFIRM **/
+
+#confirm .btn {
+  background-color: #fed136;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+#confirm input {
+  padding: 25px;
+}
+
+#confirm {
+  padding-bottom: 40px;
+}
+
+.vtop {
+  vertical-align: top;
+}
+
+.alert {
+  display: none;
+}
+
+/** LISTA DE PRESENTES **/
+#gifts {
+  margin-bottom: 80px;
+}
+
+#gifts .store {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  margin-right: 2%;
+  margin-top: 40px;
+  border: 1px solid #fed136;
+  height: 320px;
+}
+
+@media (max-width: 1000px) {
+  #gifts .store {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+#gifts img {
+  max-width: 90%;
+}
+#gifts a {
+  color: #fed136;
+  padding-top: 20px;
+}
+
+/** COMMENTS **/
+
+#comments {
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
